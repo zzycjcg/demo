@@ -12,9 +12,9 @@ public class Main
     {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-beans.xml");
         context.start();
-        log.error("Application start.");
+        log.info("Application start.");
         context.close();
-        log.error("Application close.");
+        log.info("Application close.");
     }
     
 }
