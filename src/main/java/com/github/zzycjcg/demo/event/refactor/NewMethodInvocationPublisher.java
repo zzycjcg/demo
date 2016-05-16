@@ -27,7 +27,7 @@ public class NewMethodInvocationPublisher implements ApplicationEventPublisherAw
         aep.publishEvent(startEvent);
         if (n.decrementAndGet() <= 0)
             return;
-        for (int i = 0; i < 10000000; i++)
+        for (int i = 0; i < 100000; i++)
         {
             for (int j = 0; j < 10000; j++)
             {

@@ -24,9 +24,5 @@
 			fixed-delay="1000" />
 		<task:scheduled ref="publisher" method="run"
 			fixed-delay="1000" />
-		<task:scheduled ref="publisher" method="run"
-			fixed-delay="1000" />
-		<task:scheduled ref="publisher" method="run"
-			fixed-delay="1000" />
 	</task:scheduled-tasks>
 </beans>
